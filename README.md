@@ -1,12 +1,62 @@
-# React + Vite
+# 🌟 Animated Website with GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and interactive animated website built using [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/). This project showcases scroll-triggered animations, smooth transitions, and responsive design using modern web development tools.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Smooth scroll-triggered animations with GSAP ScrollTrigger
+- 📱 Fully responsive and mobile-friendly
+- 🎨 Clean, modern UI
+- ⚡ Fast performance with lightweight animations
+- 📦 Modular and easy-to-maintain codebase
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **HTML5** – Semantic structure
+- **CSS3 / SCSS** – Styling and layout
+- **JavaScript (ES6+)** – Core logic and interactivity
+- **[GSAP](https://greensock.com/gsap/)** – High-performance animations
+- **[ScrollTrigger](https://greensock.com/scrolltrigger/)** – Scroll-based animation control
+
+> Optional (if used):
+> - **React / Next.js / Vite** – Framework for component-based development
+> - **Locomotive Scroll** – For smooth scrolling effects
+> - **Lenis / ASScroll** – Alternatives for scroll behavior
+
+## 📂 Project Structure
+
+bash
+animated-website/
+├── index.html
+├── styles/
+│   └── main.css
+├── scripts/
+│   └── main.js
+├── public/
+│   ├── images/
+│   └── fonts/
+└── README.md
+
+🔧 Setup & Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yashmahto/Animated-Website.git
+cd Animated-Website
+Open index.html in your browser: Just open the file directly or use a live server if you're using VS Code or similar.
+
+(Optional) Install dependencies (if using a build tool like Vite or npm):
+
+bash
+Copy
+Edit
+npm install
+npm run dev
+💡 Customization
+Add your own content and images in the assets/ folder.
+
+Modify animations in main.js using GSAP's rich API.
+
+Tweak styling in the styles/ folder.
