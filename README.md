@@ -60,3 +60,6 @@ Add your own content and images in the assets/ folder.
 Modify animations in main.js using GSAP's rich API.
 
 Tweak styling in the styles/ folder.
+
+Live Link : 
+https://animated-website-pi.vercel.app/
